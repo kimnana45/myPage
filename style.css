@@ -1,0 +1,135 @@
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background:#FAFAD2;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+    
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}   
+
+.container  {
+    color: whitesmoke;
+    margin-top: 100px;
+}
+
+h2 {
+    margin: 10px;
+    font-family: 'Permanent Marker', cursive;
+    color: #3CB371;
+}
+
+h3 {
+    margin: 5px;
+    font-family: 'Permanent Marker', cursive;
+    color: #2E8B57;
+    float: right;
+}
+
+#about-me {
+    margin: 90px 5px 90px;
+}
+
+.accented {
+    font-family: 'Russo One', sans-serif;
+    font-size: 9vh;
+    color: #FF6347;
+    margin-left: 20px;
+}
+
+#introduction {
+    font-family: 'Advent Pro', sans-serif;
+    color: #DDA0DD;
+    font-size: 3vh;
+    margin-left: 20px;
+}
+
+#examples {
+    text-align: left;
+    margin: 30px 0px 50px;
+}
+
+.card {
+    background-color: black;
+    border: solid blanchedalmond;
+}
+
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: greenyellow;
+}
+
+p {
+    font-family: 'Advent Pro', sans-serif;
+    color: palegreen;
+}
+
+a { 
+    text-decoration: none;
+    padding: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#contact {
+    margin: 70px 0px 100px;
+}
+
+h4 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 10vh;
+    text-align: left;
+    color: #FF6347;        
+}
+
+button {
+    font-family:'Josefin Sans', sans-serif;
+}
+
+label {
+    font-family: 'Josefin Sans', sans-serif;
+    color: greenyellow;
+}
+
+body { 
+    background-color: #000000;
+}

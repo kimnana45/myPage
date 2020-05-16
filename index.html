@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" , initial-scale=1.0">
+  <title>My Porfolio</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Permanent+Marker&display=swap&family=Russo+One&display=swap&family=Advent+Pro:wght@500&family=Alfa+Slab+One"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+      <a href="#" class="navbar-brand text-uppercase font-weight-bold">Welcome Wanderer</a>
+      <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span
+                class="sr-only">(current)</span></a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link text-uppercase font-weight-bold">About</a></li>
+          <li class="nav-item"><a href="#examples" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>PEOPLE DIE WHEN CURIOSITY GOES -Graham Swift</h2>
+      </div>
+      <div class="col-sm-10">
+        <h3>May we never stop being curious</h3>
+      </div>
+    </div>
+    <div class="row" id="about-me">
+      <div class="col-sm-6">
+        <img src="css/IMG_E1205.JPG" alt="Profile picture" class="img-thumbnail">
+      </div>
+      <div class="col-sm-4">
+        <br>
+        <br>
+        <br>
+        <h2 class="accented">Hello!</h2>
+        <br>
+        <p id="introduction">My name is Kim Le. I love to travel, seeing new places, experience new cultures,
+          eating good food, drinking good wine, and creating good vibes. <br>
+          My professional backgorund is hospitality. I have over 7 years of experience: ranging from hotel & resort
+          to food & beverage. <br>
+          Recently, I've embarked on a new adventure into the world of coding.
+          It's been fun, I've learn a ton, grow a bit, and created a few cool things. <br>
+          I look forward to honing my skills, expanse my knowledge in this field and build more applications.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="accented">A few of my creations</h2>
+      </div>
+    </div>
+    <div class="row" id="examples">
+      <div class="col-sm-6">
+        <div class="card">
+          <img src="css/TheClassicGenius.png" class="card-img-top" alt="The Classic Genious">
+          <div class="card-body">
+            <h5 class="card-title">The Classic Genius</h5>
+            <p class="card-text">A research app to help users collect scholar resaerch articles from all over the world,
+              and give user an option to enhance their study with classical music.
+              Moreover, if the user enjoy what they are hearing,
+              there are links to lead user to a music library with more information on the artist and song playing. </p>
+            <a href="https://demetrio09.github.io/Project-1/" class="btn btn-light goThere">Go There</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <img src="css/WeatherApp.png" class="card-img-top" alt="Weather App">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">This application will give you weather forecast for any city in the world. Simply type
+              in the
+              name of the city in the search box to receive forecast for the current day and the week of. This
+              application is especially
+              useful when making travel plan.
+            </p>
+            <a href="https://kimnana45.github.io/weather-app/." class="btn btn-light goThere">Go There</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="contact">
+      <div class="col-sm-5">
+        <h4>Shoot</h4>
+        <h4>Me</h4>
+        <h4>A</h4>
+        <h4>Message!</h4>
+      </div>
+      <div class="col-sm-6">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your Name</label>
+            <input type="name" class="form-control" id="example" placeholder="Full Name">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-light">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10">
+        <h2>Logic will get you from A to B.</h2>
+        <h3>Imagination will take you everywhere -Einstein</h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
