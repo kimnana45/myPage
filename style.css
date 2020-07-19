@@ -92,6 +92,7 @@ h3 {
 .card {
     background-color: black;
     border: solid blanchedalmond;
+    border-radius: 25px;
 }
 
 h5 {
@@ -121,6 +122,20 @@ h4 {
     color: #FF6347;        
 }
 
+#infoList {
+    border: solid blanchedalmond;
+    border-radius: 200px;
+    padding: 50px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 3vh;
+    color: #DDA0DD;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#contactInfo {
+    text-align: right;
+}
 button {
     font-family:'Josefin Sans', sans-serif;
 }
